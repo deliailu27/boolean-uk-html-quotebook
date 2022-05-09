@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding:0;
+    
+    background-color:#FFE7AD ;
+}
+
+
+h1 {
+    font-family: "Indie Flower", cursive;
+    background-color: rgba(246, 81, 29, 0.7);
+    position: sticky;
+    top:0;
+    height: 50px;
+    padding-left: 1rem;
+    
+}
+
+main {
+    display:grid;
+    grid-template-rows: auto auto auto 50px;
+    place-items: center;
+    gap:50px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-family: 'Rubik', sana-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size:3rem;
+    color:#F6511D;
+   
+}
+
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-align:left;
+    width: 400px;
+    
+   
+    
+}
+
+span{
+    background-color: transparent;
+    text-align: right;
+    font-size: small;
+}
+
+.human li {
+    background-color: #00A6ED;
+    border-radius: 5px;
+    margin:50px;
+    padding:50px;
+    box-shadow: 5px 10px 5px lightslategray;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+    color: #0D2C54;
+
+
+
+}
+
+.bot li {
+    background-color: #7FB800;
+    border-radius: 5px;
+    margin:50px;
+    padding:50px;
+    box-shadow: 5px 10px 5px lightslategray;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+    color: darkgreen;
+
+}
+
+.cat li {
+    background-color: #0D2C54;
+    border-radius: 5px;
+    margin:50px;
+    padding:50px;
+    box-shadow: 5px 10px 5px lightslategray;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+    color: aliceblue;
+
+}
+
+.button {
+    background-color: #F6511D;
+    width: fit-content;
+    padding: 1rem;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px lightslategray;
+    margin-left: 230px;
+    font-size:large;
+    margin-bottom: 100px;
+    
+
+        
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+a:hover {
+    cursor: pointer;
+    
+}
+
+.button:hover {
+    box-shadow: none;
+    border: 1px solid lightslategray;
+}
+
